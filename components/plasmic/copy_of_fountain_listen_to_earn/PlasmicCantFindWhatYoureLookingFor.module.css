@@ -1,0 +1,60 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  height: auto;
+  width: 100%;
+  background: var(--token-FsK72wsBLneXW9);
+  position: relative;
+  min-width: 0;
+  padding: 65px 30px 74px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 32px;
+}
+.freeBox {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  max-width: 1080px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 32px;
+}
+.h4 {
+  height: auto;
+}
+.button:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__qiYa5 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}

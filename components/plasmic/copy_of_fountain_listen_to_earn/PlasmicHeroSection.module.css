@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: url("/plasmic/copy_of_fountain_listen_to_earn/images/screenshot20220323At164606Png2.png");
+  overflow: auto;
+  position: relative;
+  min-width: 0;
+  padding: 1px 8px 51px;
+}
+.columns {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 402px;
+  align-items: stretch;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: url("/plasmic/copy_of_fountain_listen_to_earn/images/screenshot20220323At164614Png.jpeg") 0% 0% / cover;
+  min-width: 0;
+  padding: 53px 8px 8px;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .columns {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+}

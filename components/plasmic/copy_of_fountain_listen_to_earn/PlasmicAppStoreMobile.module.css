@@ -1,0 +1,35 @@
+.root {
+  object-fit: cover;
+  max-width: 75%;
+  width: auto;
+  height: 52px;
+  position: relative;
+  display: inline-inline-block !important;
+}
+.root > picture > img {
+  object-fit: cover;
+}
+.root > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .root {
+    height: 76px;
+    max-width: 158.16%;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    object-fit: contain;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .root > picture > img {
+    object-fit: contain;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .root > .__wab_img-spacer > img {
+    object-fit: contain;
+  }
+}

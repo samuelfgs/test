@@ -1,0 +1,9 @@
+.root {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}

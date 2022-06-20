@@ -1,0 +1,10 @@
+.root:global(.__wab_instance):global(.__wab_instance) {
+  height: 273px;
+  position: relative;
+  display: block;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .root:global(.__wab_instance):global(.__wab_instance) {
+    display: none;
+  }
+}

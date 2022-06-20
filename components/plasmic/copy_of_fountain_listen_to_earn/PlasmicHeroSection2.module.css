@@ -1,0 +1,151 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: url("/plasmic/copy_of_fountain_listen_to_earn/images/screenshot20220323At164606Png4.png") top 50% left 50% / cover repeat;
+  overflow: auto;
+  position: relative;
+  min-width: 0;
+  padding: 1px 8px 7px;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .root {
+    background: url("/plasmic/copy_of_fountain_listen_to_earn/images/screenshot20220323At164606Png4.png") 0% 0% / cover padding-box border-box;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.freeBox___8Ob2S {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.text__xMfth {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  font-size: 29px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 700;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .text__xMfth {
+    display: none;
+  }
+}
+.text__eSkmd {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  font-size: 29px;
+  text-align: center;
+  padding-bottom: 34px;
+  font-weight: 700;
+  min-width: 0;
+}
+.freeBox___0Ddkz {
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  display: none;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .freeBox___0Ddkz {
+    display: flex;
+  }
+}
+.link__ht8OV {
+  position: relative;
+  margin-left: 0px;
+  display: flex;
+  padding-right: 0px;
+}
+.appStoreMobile___6LVsp:global(.__wab_instance) {
+  max-width: 100%;
+  width: 185px;
+  margin-right: 90px;
+  position: relative;
+  left: auto;
+  top: auto;
+  margin-left: 0px;
+  flex-shrink: 0;
+}
+.link__cbxCp {
+  position: relative;
+  margin-right: 6px;
+  display: flex;
+}
+.playStoreMobile:global(.__wab_instance) {
+  max-width: 100%;
+  width: 209px;
+  margin-right: 0px;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .playStoreMobile:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.freeBox__qqw3R {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .freeBox__qqw3R {
+    display: none;
+  }
+}
+.appStore:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .appStore:global(.__wab_instance) {
+    display: none;
+  }
+}
+.playStore:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.appStoreMobile__hsEH:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .appStoreMobile__hsEH:global(.__wab_instance) {
+    max-width: 100%;
+    position: relative;
+    width: 285px;
+    flex-shrink: 0;
+  }
+}
